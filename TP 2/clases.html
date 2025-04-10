@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases - PowerFit Gym</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Placeholder para el header -->
+    <div id="header-placeholder"></div>
+
+    <section class="classes-section">
+        <div class="container">
+            <h2 class="section-title">Nuestras Clases</h2>
+
+            <!-- Sistema de filtrado -->
+            <div class="filters">
+                <input type="radio" id="all" name="filter" class="filter-input" checked>
+                <label for="all" class="filter-label">Todas</label>
+
+                <input type="radio" id="musculacion" name="filter" class="filter-input">
+                <label for="musculacion" class="filter-label">Musculación</label>
+
+                <input type="radio" id="crossfit" name="filter" class="filter-input">
+                <label for="crossfit" class="filter-label">CrossFit</label>
+
+                <input type="radio" id="yoga" name="filter" class="filter-input">
+                <label for="yoga" class="filter-label">Yoga</label>
+
+                <input type="radio" id="spinning" name="filter" class="filter-input">
+                <label for="spinning" class="filter-label">Spinning</label>
+            </div>
+
+            <!-- Galería de clases -->
+            <div class="classes-masonry">
+                <!-- Clase 1 -->
+                <div class="class-card-clases" data-category="musculacion">
+                    <img src="https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                        alt="Musculación" class="class-img-clases">
+                    <div class="class-category-clases">Musculación</div>
+                    <div class="class-info-clases">
+                        <h3>Musculación Intensiva</h3>
+                        <p>Desarrolla fuerza y masa muscular con nuestro programa avanzado</p>
+                        <p><i class="far fa-clock"></i> 60 min</p>
+                    </div>
+                </div>
+
+                <!-- Clase 2 -->
+                <div class="class-card-clases" data-category="crossfit">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                        alt="CrossFit" class="class-img-clases">
+                    <div class="class-category-clases">CrossFit</div>
+                    <div class="class-info-clases">
+                        <h3>CrossFit Avanzado</h3>
+                        <p>Entrenamiento funcional de alta intensidad</p>
+                        <p><i class="far fa-clock"></i> 45 min</p>
+                    </div>
+                </div>
+
+                <!-- Clase 3 -->
+                <div class="class-card-clases" data-category="yoga">
+                    <img src="https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80"
+                        alt="Yoga" class="class-img-clases">
+                    <div class="class-category-clases">Yoga</div>
+                    <div class="class-info-clases">
+                        <h3>Yoga Restaurativo</h3>
+                        <p>Mejora tu flexibilidad y reduce el estrés</p>
+                        <p><i class="far fa-clock"></i> 60 min</p>
+                    </div>
+                </div>
+
+                <!-- Clase 4 -->
+                <div class="class-card-clases" data-category="spinning">
+                    <img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                        alt="Spinning" class="class-img-clases">
+                    <div class="class-category-clases">Spinning</div>
+                    <div class="class-info-clases">
+                        <h3>Spinning Interválico</h3>
+                        <p>Quema calorías con nuestro entrenamiento en bicicleta</p>
+                        <p><i class="far fa-clock"></i> 45 min</p>
+                    </div>
+                </div>
+
+                <!-- Clase 5 -->
+                <div class="class-card-clases" data-category="musculacion">
+                    <img src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1631&q=80"
+                        alt="Musculación" class="class-img-clases">
+                    <div class="class-category-clases">Musculación</div>
+                    <div class="class-info-clases">
+                        <h3>Pesas Libres</h3>
+                        <p>Trabajo con mancuernas y barras para todos los niveles</p>
+                        <p><i class="far fa-clock"></i> 50 min</p>
+                    </div>
+                </div>
+
+                <!-- Clase 6 -->
+                <div class="class-card-clases" data-category="crossfit">
+                    <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                        alt="CrossFit" class="class-img-clases">
+                    <div class="class-category-clases">CrossFit</div>
+                    <div class="class-info-clases">
+                        <h3>CrossFit Principiantes</h3>
+                        <p>Introducción al mundo del CrossFit</p>
+                        <p><i class="far fa-clock"></i> 45 min</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla de horarios -->
+            <h3 class="section-title">Horario Semanal</h3>
+            <div class="schedule">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Hora</th>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miércoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                            <th>Sábado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="time-col">6:00 AM</td>
+                            <td data-label="Lunes">
+                                <span class="class-name">Musculación</span>
+                                <div class="trainer">Con Juan</div>
+                            </td>
+                            <td data-label="Martes">
+                                <span class="class-name">Spinning</span>
+                                <div class="trainer">Con Ana</div>
+                            </td>
+                            <td data-label="Miércoles">
+                                <span class="class-name">CrossFit</span>
+                                <div class="trainer">Con Carlos</div>
+                            </td>
+                            <td data-label="Jueves">
+                                <span class="class-name">Musculación</span>
+                                <div class="trainer">Con Juan</div>
+                            </td>
+                            <td data-label="Viernes">
+                                <span class="class-name">Spinning</span>
+                                <div class="trainer">Con Ana</div>
+                            </td>
+                            <td data-label="Sábado">
+                                <span class="class-name">Yoga</span>
+                                <div class="trainer">Con María</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">8:00 AM</td>
+                            <td data-label="Lunes">
+                                <span class="class-name">Yoga</span>
+                                <div class="trainer">Con María</div>
+                            </td>
+                            <td data-label="Martes">
+                                <span class="class-name">CrossFit</span>
+                                <div class="trainer">Con Carlos</div>
+                            </td>
+                            <td data-label="Miércoles">
+                                <span class="class-name">Spinning</span>
+                                <div class="trainer">Con Ana</div>
+                            </td>
+                            <td data-label="Jueves">
+                                <span class="class-name">Yoga</span>
+                                <div class="trainer">Con María</div>
+                            </td>
+                            <td data-label="Viernes">
+                                <span class="class-name">CrossFit</span>
+                                <div class="trainer">Con Carlos</div>
+                            </td>
+                            <td data-label="Sábado">
+                                <span class="class-name">Spinning</span>
+                                <div class="trainer">Con Ana</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">12:00 PM</td>
+                            <td data-label="Lunes">
+                                <span class="class-name">Spinning</span>
+                                <div class="trainer">Con Ana</div>
+                            </td>
+                            <td data-label="Martes">
+                                <span class="class-name">Musculación</span>
+                                <div class="trainer">Con Juan</div>
+                            </td>
+                            <td data-label="Miércoles">
+                                <span class="class-name">Yoga</span>
+                                <div class="trainer">Con María</div>
+                            </td>
+                            <td data-label="Jueves">
+                                <span class="class-name">Spinning</span>
+                                <div class="trainer">Con Ana</div>
+                            </td>
+                            <td data-label="Viernes">
+                                <span class="class-name">Musculación</span>
+                                <div class="trainer">Con Juan</div>
+                            </td>
+                            <td data-label="Sábado">
+                                <span class="class-name">CrossFit</span>
+                                <div class="trainer">Con Carlos</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">6:00 PM</td>
+                            <td data-label="Lunes">
+                                <span class="class-name">CrossFit</span>
+                                <div class="trainer">Con Carlos</div>
+                            </td>
+                            <td data-label="Martes">
+                                <span class="class-name">Yoga</span>
+                                <div class="trainer">Con María</div>
+                            </td>
+                            <td data-label="Miércoles">
+                                <span class="class-name">Musculación</span>
+                                <div class="trainer">Con Juan</div>
+                            </td>
+                            <td data-label="Jueves">
+                                <span class="class-name">CrossFit</span>
+                                <div class="trainer">Con Carlos</div>
+                            </td>
+                            <td data-label="Viernes">
+                                <span class="class-name">Yoga</span>
+                                <div class="trainer">Con María</div>
+                            </td>
+                            <td data-label="Sábado"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- Placeholder para el footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Script que carga los componentes (header y footer)-->
+    <script src="load-components.js"></script>
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>

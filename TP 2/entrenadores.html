@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenadores - PowerFit Gym</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Placeholder para el header -->
+    <div id="header-placeholder"></div>
+
+    <section class="trainers-section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Entrenadores</h2>
+
+            <div class="trainers-grid">
+                <!-- Entrenador 1 -->
+                <div class="trainer-card">
+                    <div class="trainer-card-inner">
+                        <div class="trainer-card-front">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Juan Pérez"
+                                class="trainer-img">
+                            <h3 class="trainer-name">Juan Pérez</h3>
+                            <p class="trainer-specialty">Especialista en CrossFit</p>
+                            <div class="trainer-rating">
+                                <div class="rating-stars">
+                                    <input type="radio" id="star5-juan" name="rating-juan" value="5" checked>
+                                    <label for="star5-juan"><i class="fas fa-star"></i></label>
+                                    <input type="radio" id="star4-juan" name="rating-juan" value="4">
+                                    <label for="star4-juan"><i class="fas fa-star"></i></label>
+                                    <input type="radio" id="star3-juan" name="rating-juan" value="3">
+                                    <label for="star3-juan"><i class="fas fa-star"></i></label>
+                                    <input type="radio" id="star2-juan" name="rating-juan" value="2">
+                                    <label for="star2-juan"><i class="fas fa-star"></i></label>
+                                    <input type="radio" id="star1-juan" name="rating-juan" value="1">
+                                    <label for="star1-juan"><i class="fas fa-star"></i></label>
+                                </div>
+                            </div>
+                            <p class="rating-text">4.8 (120 valoraciones)</p>
+                        </div>
+                        <div class="trainer-card-back">
+                            <h3>Juan Pérez</h3>
+                            <p class="trainer-specialty" style="color: var(--white)">CrossFit Nivel 3</p>
+                            <p class="trainer-bio">Entrenador certificado con más de 10 años de experiencia en
+                                entrenamiento funcional y preparación física.</p>
+
+                            <div class="skills-container">
+                                <div class="skill">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Fuerza</span>
+                                        <span class="skill-percent">90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="--skill-level: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Resistencia</span>
+                                        <span class="skill-percent">85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="--skill-level: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Técnica</span>
+                                        <span class="skill-percent">95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="--skill-level: 95%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Entrenador 2 -->
+                <div class="trainer-card">
+                    <div class="trainer-card-inner">
+                        <div class="trainer-card-front">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="María Gómez"
+                                class="trainer-img">
+                            <h3 class="trainer-name">María Gómez</h3>
+                            <p class="trainer-specialty">Instructora de Yoga</p>
+                            <div class="trainer-rating">
+                                <div class="rating-stars">
+                                    <input type="radio" id="star5-maria" name="rating-maria" value="5" checked>
+                                    <label for="star5-maria"><i class="fas fa-star"></i></label>
+                                    <input type="radio" id="star4-maria" name="rating-maria" value="4">
+                                    <label for="star4-maria"><i class="fas fa-star"></i></label>
+                                    <input type="radio" id="star3-maria" name="rating-maria" value="3">
+                                    <label for="star3-maria"><i class="fas fa-star"></i></label>
+                                    <input type="radio" id="star2-maria" name="rating-maria" value="2">
+                                    <label for="star2-maria"><i class="fas fa-star"></i></label>
+                                    <input type="radio" id="star1-maria" name="rating-maria" value="1">
+                                    <label for="star1-maria"><i class="fas fa-star"></i></label>
+                                </div>
+                            </div>
+                            <p class="rating-text">4.9 (95 valoraciones)</p>
+                        </div>
+                        <div class="trainer-card-back">
+                            <h3>María Gómez</h3>
+                            <p class="trainer-specialty" style="color: var(--white)">Yoga Terapéutico</p>
+                            <p class="trainer-bio">Especialista en yoga restaurativo y terapéutico con formación en
+                                India y Estados Unidos.</p>
+
+                            <div class="skills-container">
+                                <div class="skill">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Flexibilidad</span>
+                                        <span class="skill-percent">95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="--skill-level: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Meditación</span>
+                                        <span class="skill-percent">90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="--skill-level: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Posturas</span>
+                                        <span class="skill-percent">92%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="--skill-level: 92%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Entrenador 3 -->
+                <div class="trainer-card">
+                    <div class="trainer-card-inner">
+                        <div class="trainer-card-front">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Carlos Rojas"
+                                class="trainer-img">
+                            <h3 class="trainer-name">Carlos Rojas</h3>
+                            <p class="trainer-specialty">Entrenador Personal</p>
+                            <div class="trainer-rating">
+                                <div class="rating-stars">
+                                    <input type="radio" id="star5-carlos" name="rating-carlos" value="5" checked>
+                                    <label for="star5-carlos"><i class="fas fa-star"></i></label>
+                                    <input type="radio" id="star4-carlos" name="rating-carlos" value="4">
+                                    <label for="star4-carlos"><i class="fas fa-star"></i></label>
+                                    <input type="radio" id="star3-carlos" name="rating-carlos" value="3">
+                                    <label for="star3-carlos"><i class="fas fa-star"></i></label>
+                                    <input type="radio" id="star2-carlos" name="rating-carlos" value="2">
+                                    <label for="star2-carlos"><i class="fas fa-star"></i></label>
+                                    <input type="radio" id="star1-carlos" name="rating-carlos" value="1">
+                                    <label for="star1-carlos"><i class="fas fa-star"></i></label>
+                                </div>
+                            </div>
+                            <p class="rating-text">4.7 (150 valoraciones)</p>
+                        </div>
+                        <div class="trainer-card-back">
+                            <h3>Carlos Rojas</h3>
+                            <p class="trainer-specialty" style="color: var(--white)">Fisicoculturismo</p>
+                            <p class="trainer-bio">Campeón nacional de fisicoculturismo con especialización en nutrición
+                                deportiva.</p>
+
+                            <div class="skills-container">
+                                <div class="skill">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Musculación</span>
+                                        <span class="skill-percent">98%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="--skill-level: 98%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Nutrición</span>
+                                        <span class="skill-percent">90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="--skill-level: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Técnica</span>
+                                        <span class="skill-percent">93%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="--skill-level: 93%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección de certificaciones -->
+            <h2 class="section-title">Certificaciones</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 class="certification-name">NASM Certified</h3>
+                    <p>National Academy of Sports Medicine</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="certification-name">ACE Fitness</h3>
+                    <p>American Council on Exercise</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3 class="certification-name">ISSA</h3>
+                    <p>International Sports Sciences Association</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="certification-name">Les Mills</h3>
+                    <p>Programas de entrenamiento grupal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Placeholder para el footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Script que carga los componentes (header y footer)-->
+    <script src="load-components.js"></script>
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>
